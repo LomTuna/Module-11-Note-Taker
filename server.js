@@ -4,7 +4,7 @@ const path = require('path');
 
 // Create express app
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 
 // parse JSON file using the middleware that is setup
 app.use(express.urlencoded({ extended: true }));
